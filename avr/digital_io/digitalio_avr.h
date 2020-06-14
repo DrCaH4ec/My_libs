@@ -1,5 +1,5 @@
-#ifndef _DIGITAL_IO_AVR_
-#define _DIGITAL_IO_AVR_
+#ifndef _DIGITAL_IO_AVR_H_
+#define _DIGITAL_IO_AVR_H_
 
 //-----------------------------------------------------------------------------
 #define INPUT		0
@@ -20,5 +20,5 @@
 #define DigitalRead(port, pin) port&(1<<pin)
 //-----------------------------------------------------------------------------
 
-/*_DIGITAL_IO_AVR_*/
+/*_DIGITAL_IO_AVR_H_*/
 #endif
